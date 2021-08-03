@@ -1,0 +1,23 @@
+list files:
+
+Traffic_Sign_Classifier_KERAS.ipynb:
+	contents : 
+	Lenet model : traffic class classifier
+	training and testing 
+
+augmentation.py:
+	contents:
+	python program applying transformations to the training set images to augment it. 
+	Uses the Augmentator class. Store the results to "train_augmented_p1.p" 
+
+train.p, valid.p, test.p :
+	training, validation and test sets
+
+std_mean.p : 
+	pickling the standardization variables 
+
+model_augmented.h5:
+	storing the model for later predictions
+
+
+
